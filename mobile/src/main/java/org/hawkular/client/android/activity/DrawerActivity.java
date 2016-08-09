@@ -211,7 +211,6 @@ public final class DrawerActivity extends AppCompatActivity implements Navigatio
         adapter.addFragment(getFavMetricsFragment(), "ONE");
         adapter.addFragment(getAlertsFragment(), "TWO");
         viewPager.setAdapter(adapter);
-        viewPager.findViewWithTag("UN");
 
     }
 
